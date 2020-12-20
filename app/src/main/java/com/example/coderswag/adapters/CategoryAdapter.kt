@@ -1,4 +1,4 @@
-package com.example.coderswag.Adapters
+package com.example.coderswag.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,10 +7,8 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
-import com.example.coderswag.Model.Category
+import com.example.coderswag.model.Category
 import com.example.coderswag.R
-import kotlinx.android.synthetic.main.activity_main.*
 
 class CategoryAdapter(val context: Context, val categories: List<Category>) : BaseAdapter() {
     override fun getCount(): Int {
